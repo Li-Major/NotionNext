@@ -1,5 +1,4 @@
 import { siteConfig } from '@/lib/config'
-import DarkModeButton from '@/components/DarkModeButton'
 
 const Footer = ({ title }) => {
   const d = new Date()
