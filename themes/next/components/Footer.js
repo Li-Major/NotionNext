@@ -13,7 +13,7 @@ const Footer = ({ title }) => {
         >
 
             <span>
-                <DarkModeButton />
+                {/* <DarkModeButton /> */}
 
                 <i className='fas fa-copyright' /> {`${copyrightDate}`} <span className='mx-1 animate-pulse'><i className='fas fa-heart' /></span> <a href={siteConfig('LINK')} className='underline font-bold '>{siteConfig('AUTHOR')}</a>.<br />
 
